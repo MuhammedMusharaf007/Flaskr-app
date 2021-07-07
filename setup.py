@@ -1,5 +1,6 @@
 from setuptools import find_packages, setup
 
+heroku ps:scale web=1
 setup(
 	name='flaskr',
 	version='1.0.0',
