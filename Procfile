@@ -1,2 +1,2 @@
-web: python flaskr.create_app
+web: python flaskr
 heroku ps:scale web=1
