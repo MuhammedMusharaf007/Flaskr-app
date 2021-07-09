@@ -1,2 +1,2 @@
-web: gunicorn flaskr:create_app
+web: gunicorn flaskr:flaskr
 heroku ps:scale web=1
